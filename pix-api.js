@@ -69,3 +69,6 @@ app.post('/generate-pix', async (req, res) => {
 // Roda a porra do servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`API de Pix rodando na porta ${PORT}, seu desgraçado! 🔥`));
+git add pix-api.js
+git commit -m "Use environment variables for ClyptPayments keys"
+git push origin main
