@@ -1,0 +1,12 @@
+{
+    "name": "pix-api",
+    "version": "1.0.0",
+    "main": "pix-api.js",
+    "scripts": {
+      "start": "node pix-api.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "node-fetch": "^2.6.1"
+    }
+  }
